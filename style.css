@@ -1,0 +1,12 @@
+:root {
+  --ff-primary: 'Lora';
+  --ff-secondary: 'Ubuntu';
+
+  --clr-one: #f8f8f8;
+  --clr-two: #707070;
+  --clr-three: #1792d2;
+  --clr-four: #143774;
+
+  --fs-h1: 3.375rem;
+  --fs-h2: 1rem;
+}
