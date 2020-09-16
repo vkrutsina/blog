@@ -9,8 +9,31 @@
 
   --fs-h1: 3.375rem;
 }
+
+body {
+  margin: 0;
+  font-family: var(--ff-secondary);
+}
+
+h1 {
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  color: var(--clr-four);
+  font-size: 2rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-weight: 700;
+  color: var(--clr-three);
+  font-size: 0.75rem;
+  margin: 0;
+}
+
 header {
   text-align: center;
+  background: var(--clr-one);
+  padding: 2em 0;
 }
 
 nav ul {
@@ -25,7 +48,21 @@ nav li {
 }
 
 nav a {
+  text-decoration: none;
+  color: var(--clr-two);
+  font-weight: 700;
+  padding: 0.25em 0;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
+  color: var(--clr-three);
+}
+
+.current-page {
+  border-bottom: 1px solid var(--clr-two);
+}
+
+.current-page:hover {
+  color: var(--clr-two);
 }
